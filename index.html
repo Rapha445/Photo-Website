@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphaelle - Photography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="top">
+        <div id="headernav">
+            <h1 class="logo">
+                <a href="/index.html"><img src="img/logo.svg" alt="My Work"></a>
+            </h1>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a href="#"><img src="img/icon-instagram.png" alt="Instagram"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header>
+        <div id="mainvisual">
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
+                <img src="img/mainvisual-pc.jpg" alt="Main Visual">
+            </picture>
+        </div>
+    </header>
+    <main>
+        <section class="content" id="about">
+            <h2>About</h2>
+            <p>Raphaelle Delmas</p>
+            <p>1-12-35 203, Minamikarasuyama, Setagaya-ku, Tokyo 157-0062 Japan <br>
+                tel: 080-7468-4144 <br>
+                url: www.xxxxxx.jp <br>
+                mail: raphaelle.delmas@lilo.org</p>
+            <p>This website coded with HTML and CSS uses my film pictures to illustrate my progress in learning
+                front-end development. I hope that you will enjoy.</p>
+        </section>
+        <section class="content" id="works">
+            <h2>Works</h2>
+            <div>
+                <img src="img/works1.jpg" alt="Work1">
+                <img src="img/works2.jpg" alt="Work2">
+                <img src="img/works3.jpg" alt="Work3">
+                <img src="img/works4.jpg" alt="Work4">
+                <img src="img/works5.jpg" alt="Work5">
+                <img src="img/works6.jpg" alt="Work6">
+            </div>
+        </section>
+        <section class="content" id="store">
+            <div>
+                <h2>Online Store</h2>
+                <p>If I sold my pictures, here is what you could get!</p>
+                <div class="button">
+
+                    <a href="html/product.html"><button>Go shopping</button> </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="content" id="contact">
+            <h2>Contact</h2>
+            <form>
+                <dl>
+                    <dt><label for="name">NAME</label></dt>
+                    <dd><input type="text" name="name" id="name"></dd>
+                    <dt><label for="email">E-mail</label></dt>
+                    <dd><input type="text" name="email" id="email"></dd>
+                    <dt><label for="msg">MESSAGE</label></dt>
+                    <dd><textarea name="msg" id="msg"></textarea></dd>
+                </dl>
+                <div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+        </section>
+        <div class="back-to-top-wrapper">
+            <a href="#mainvisual" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 Raphaelle Delmas</p>
+    </footer>
+</body>
+
+</html>
