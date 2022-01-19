@@ -176,7 +176,8 @@ button {
     /* background: linear-gradient(0deg, rgba(253,233,161,0.5) 0%, rgba(252,196,150,1) 100%); */
     cursor: pointer;
     padding: 0px;
-    border: none;
+    border: none;   
+    transition: 400ms ease all;
 }
 
 button:hover {
