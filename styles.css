@@ -295,13 +295,12 @@ form div {
       bottom: 0;
       background: transparent;
       border-radius: 50%;
+      transition: 400ms ease all;
   }
 
   .back-to-top-link:hover:before {
     box-shadow: 0px 3px 10px 3px #fdd6b6, -1px -1px 5px 0px #fff;
     animation: rotate 2.5s linear infinite;
-    transition: 400ms ease all;
-    
   }
 
   @keyframes rotate {
