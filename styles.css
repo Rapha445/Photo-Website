@@ -111,6 +111,7 @@ picture {
     max-width: 1920px;
     height: 420px;
     object-fit: cover;
+    object-position: right;
 }
 
 
